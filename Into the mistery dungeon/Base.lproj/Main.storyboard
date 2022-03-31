@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Into_the_mistery_dungeon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Into_the_mistery_dungeon___Gabarito" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,7 +136,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="actions" destination="7Rr-PZ-nWV" id="cnx-Es-y13"/>
+                        <outlet property="actions" destination="7Rr-PZ-nWV" id="lR6-or-2ej"/>
                         <outlet property="eventImage" destination="Sj4-jm-et1" id="2JU-xo-USk"/>
                     </connections>
                 </viewController>

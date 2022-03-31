@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD40C29C27B2ABE7009D1444 /* Into the mistery dungeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Into the mistery dungeon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD40C29C27B2ABE7009D1444 /* Into the mistery dungeon - Gabarito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Into the mistery dungeon - Gabarito.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD40C29F27B2ABE7009D1444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD40C2A127B2ABE7009D1444 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CD40C2A327B2ABE7009D1444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		CD40C29D27B2ABE7009D1444 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD40C29C27B2ABE7009D1444 /* Into the mistery dungeon.app */,
+				CD40C29C27B2ABE7009D1444 /* Into the mistery dungeon - Gabarito.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD40C29B27B2ABE7009D1444 /* Into the mistery dungeon */ = {
+		CD40C29B27B2ABE7009D1444 /* Into the mistery dungeon - Gabarito */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD40C2B027B2ABE9009D1444 /* Build configuration list for PBXNativeTarget "Into the mistery dungeon" */;
+			buildConfigurationList = CD40C2B027B2ABE9009D1444 /* Build configuration list for PBXNativeTarget "Into the mistery dungeon - Gabarito" */;
 			buildPhases = (
 				CD40C29827B2ABE7009D1444 /* Sources */,
 				CD40C29927B2ABE7009D1444 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Into the mistery dungeon";
+			name = "Into the mistery dungeon - Gabarito";
 			productName = "Into the mistery dungeon";
-			productReference = CD40C29C27B2ABE7009D1444 /* Into the mistery dungeon.app */;
+			productReference = CD40C29C27B2ABE7009D1444 /* Into the mistery dungeon - Gabarito.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD40C29727B2ABE7009D1444 /* Build configuration list for PBXProject "Into the mistery dungeon" */;
+			buildConfigurationList = CD40C29727B2ABE7009D1444 /* Build configuration list for PBXProject "Into the mistery dungeon - Gabarito" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD40C29B27B2ABE7009D1444 /* Into the mistery dungeon */,
+				CD40C29B27B2ABE7009D1444 /* Into the mistery dungeon - Gabarito */,
 			);
 		};
 /* End PBXProject section */
@@ -292,6 +292,7 @@
 				DEVELOPMENT_TEAM = ADP5XER6GT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Into the mistery dungeon/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Into the mistery dungeon - Gabarito";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +322,7 @@
 				DEVELOPMENT_TEAM = ADP5XER6GT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Into the mistery dungeon/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Into the mistery dungeon - Gabarito";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -343,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD40C29727B2ABE7009D1444 /* Build configuration list for PBXProject "Into the mistery dungeon" */ = {
+		CD40C29727B2ABE7009D1444 /* Build configuration list for PBXProject "Into the mistery dungeon - Gabarito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD40C2AE27B2ABE9009D1444 /* Debug */,
@@ -352,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD40C2B027B2ABE9009D1444 /* Build configuration list for PBXNativeTarget "Into the mistery dungeon" */ = {
+		CD40C2B027B2ABE9009D1444 /* Build configuration list for PBXNativeTarget "Into the mistery dungeon - Gabarito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD40C2B127B2ABE9009D1444 /* Debug */,

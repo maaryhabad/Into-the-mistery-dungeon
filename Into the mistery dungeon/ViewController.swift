@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
     var monster = false
     var trap = false
     
@@ -17,14 +18,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var eventImage: UIImageView!
     
-    
     @IBOutlet weak var actions: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         randomEvent()
     }
-    
     
     @IBAction func touchedUpButton(_ sender: Any) {
         direcao = "cima"
@@ -50,16 +50,15 @@ class ViewController: UIViewController {
         actions.text = "IÁÁÁÁÁÁÁÁ"
         monster = false
         print("Você atacou o monstro")
-        eventImage.image = UIImage(named: "road")
-        actions.text = "Ufa, podemos andar novamente."
+        changeEvent(imageNamed: "road", actionText: "Ufa, podemos andar novamente.")
+
     }
     
     @IBAction func disableTrap(_ sender: Any) {
         actions.text = "Essa eu consigo desarmar"
         trap = false
         print("Você desarmou a armadilha")
-        eventImage.image = UIImage(named: "road")
-        actions.text = "Ufa, podemos andar novamente."
+        changeEvent(imageNamed: "road", actionText: "Ufa, podemos andar novamente.")
     }
     
     func walk(to direction: String) {
@@ -79,16 +78,18 @@ class ViewController: UIViewController {
         
         if numberEvent == 0 {
             monster = true
-            eventImage.image = UIImage(named: "cthulhu")
-            actions.text = "Oh não, tem um monstro na minha frente!"
+            changeEvent(imageNamed: "cthulhu", actionText: "Oh não, tem um monstro na minha frente")
         } else if numberEvent == 1 {
             trap = true
-            eventImage.image = UIImage(named: "trap")
-            actions.text = "Opa! Parece que eu vi uma armadilha"
+            changeEvent(imageNamed: "trap", actionText: "Opa! Parece que eu vi uma armadilha.")
         } else {
-            eventImage.image = UIImage(named: "road")
-            actions.text = "Ufa, podemos andar novamente."
+            changeEvent(imageNamed: "road", actionText: "Ufa, podemos andar novamente.")
         }
+    }
+    
+    func changeEvent(imageNamed: String, actionText: String) {
+        eventImage.image = UIImage(named: imageNamed)
+        actions.text = actionText
     }
 
 }
